@@ -67,14 +67,14 @@
           <el-tooltip effect="light" :content="$t('login.refreshCaptchaTip')" placement="top">
             <span class="captcha-img" @click="refreshCaptcha">
               <img :src="captchaImg" :title="$t('login.refreshCaptcha')">
-            </span>        
+            </span>
           </el-tooltip>
         </el-form-item>
 
-        <el-button 
-          :loading="loading" 
-          type="primary" 
-          style="width:100%;margin-bottom:35px;" 
+        <el-button
+          :loading="loading"
+          type="primary"
+          style="width:100%;margin-bottom:35px;"
           @click.native.prevent="handleLogin">
           {{ $t('login.logIn') }}
         </el-button>
@@ -82,7 +82,7 @@
       </el-form>
 
       <div class="copyright">
-          Copyright @ 2024 <a target="_blank" href="http://github.com/deatil/larke-admin">Larke-admin</a>
+          Copyright @ 2024 <a target="_blank" href="http://github.com/deatil/larke-admin">admin</a>
       </div>
     </div>
   </div>
